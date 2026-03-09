@@ -1,0 +1,228 @@
+{
+  "products": [
+    {
+      "product_id": "PROD-001",
+      "sku": "SKU-001",
+      "name": "SMAK'D Delta-9 THC Gummy 500mg",
+      "category": "THC Edible",
+      "flags": ["THC", "age_restricted"],
+      "blocked_states": ["CA", "TX", "ID"],
+      "lab_report_required": true,
+      "price": 2499,
+      "popularity_score": 95
+    },
+    {
+      "product_id": "PROD-002",
+      "sku": "SKU-002",
+      "name": "CloudBurst Nicotine Disposable Vape 5%",
+      "category": "Nicotine Vape",
+      "flags": ["nicotine", "age_restricted"],
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 1299,
+      "popularity_score": 88
+    },
+    {
+      "product_id": "PROD-003",
+      "sku": "SKU-003",
+      "name": "ZenDrop CBD Oil Tincture 1000mg",
+      "category": "CBD",
+      "flags": ["CBD"],
+      "blocked_states": ["ID", "SD"],
+      "lab_report_required": true,
+      "price": 3499,
+      "popularity_score": 82
+    },
+    {
+      "product_id": "PROD-004",
+      "sku": "SKU-004",
+      "name": "FrostBite Menthol Nicotine Pouch 6mg",
+      "category": "Nicotine Pouch",
+      "flags": ["nicotine", "age_restricted"],
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 899,
+      "popularity_score": 79
+    },
+    {
+      "product_id": "PROD-005",
+      "sku": "SKU-005",
+      "name": "BlazeTech THC Beverage 10mg",
+      "category": "THC Beverage",
+      "flags": ["THC", "age_restricted"],
+      "blocked_states": ["CA", "TX", "FL", "ID"],
+      "lab_report_required": true,
+      "price": 4299,
+      "popularity_score": 91
+    },
+    {
+      "product_id": "PROD-006",
+      "sku": "SKU-006",
+      "name": "PureLeaf Hemp Flower 3.5g",
+      "category": "Hemp",
+      "flags": ["hemp"],
+      "blocked_states": ["ID"],
+      "lab_report_required": true,
+      "price": 1999,
+      "popularity_score": 74
+    },
+    {
+      "product_id": "PROD-007",
+      "sku": "SKU-007",
+      "name": "NovaPuff Caffeine Vape 60mg",
+      "category": "Caffeine Vape",
+      "flags": ["caffeine"],
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 1599,
+      "popularity_score": 67
+    },
+    {
+      "product_id": "PROD-008",
+      "sku": "SKU-008",
+      "name": "VitalDrop CBD Capsules 25mg x 30",
+      "category": "CBD",
+      "flags": ["CBD"],
+      "blocked_states": ["ID", "SD", "NE"],
+      "lab_report_required": true,
+      "price": 2799,
+      "popularity_score": 71
+    },
+    {
+      "product_id": "PROD-009",
+      "sku": "SKU-009",
+      "name": "Arctic Blast Nicotine Disposable 3%",
+      "category": "Nicotine Vape",
+      "flags": ["nicotine", "age_restricted"],
+      "blocked_states": [],
+      "lab_report_required": false,
+      "price": 999,
+      "popularity_score": 85
+    },
+    {
+      "product_id": "PROD-010",
+      "sku": "SKU-010",
+      "name": "SolarHaze Delta-8 Cartridge 1g",
+      "category": "Delta-8",
+      "flags": ["Delta-8", "age_restricted"],
+      "blocked_states": ["CA", "NY", "TX", "WA", "CO"],
+      "lab_report_required": true,
+      "price": 3999,
+      "popularity_score": 89
+    }
+  ],
+
+  "inventory": [
+    { "product_id": "PROD-001", "warehouse": "Los Angeles, CA",   "qty": 0   },
+    { "product_id": "PROD-001", "warehouse": "Dallas, TX",        "qty": 0   },
+    { "product_id": "PROD-001", "warehouse": "Chicago, IL",       "qty": 340 },
+    { "product_id": "PROD-001", "warehouse": "Miami, FL",         "qty": 210 },
+    { "product_id": "PROD-002", "warehouse": "Los Angeles, CA",   "qty": 520 },
+    { "product_id": "PROD-002", "warehouse": "Dallas, TX",        "qty": 310 },
+    { "product_id": "PROD-002", "warehouse": "Chicago, IL",       "qty": 180 },
+    { "product_id": "PROD-003", "warehouse": "Los Angeles, CA",   "qty": 95  },
+    { "product_id": "PROD-003", "warehouse": "Chicago, IL",       "qty": 140 },
+    { "product_id": "PROD-004", "warehouse": "Los Angeles, CA",   "qty": 600 },
+    { "product_id": "PROD-004", "warehouse": "Dallas, TX",        "qty": 450 },
+    { "product_id": "PROD-004", "warehouse": "Miami, FL",         "qty": 300 },
+    { "product_id": "PROD-005", "warehouse": "Chicago, IL",       "qty": 175 },
+    { "product_id": "PROD-005", "warehouse": "Los Angeles, CA",   "qty": 0   },
+    { "product_id": "PROD-006", "warehouse": "Los Angeles, CA",   "qty": 220 },
+    { "product_id": "PROD-006", "warehouse": "Chicago, IL",       "qty": 190 },
+    { "product_id": "PROD-007", "warehouse": "Los Angeles, CA",   "qty": 410 },
+    { "product_id": "PROD-007", "warehouse": "Dallas, TX",        "qty": 260 },
+    { "product_id": "PROD-008", "warehouse": "Chicago, IL",       "qty": 130 },
+    { "product_id": "PROD-008", "warehouse": "Miami, FL",         "qty": 90  },
+    { "product_id": "PROD-009", "warehouse": "Los Angeles, CA",   "qty": 480 },
+    { "product_id": "PROD-009", "warehouse": "Dallas, TX",        "qty": 390 },
+    { "product_id": "PROD-009", "warehouse": "Miami, FL",         "qty": 270 },
+    { "product_id": "PROD-010", "warehouse": "Chicago, IL",       "qty": 155 },
+    { "product_id": "PROD-010", "warehouse": "Miami, FL",         "qty": 110 }
+  ],
+
+  "customers": [
+    { "customer_id": "CUST-001", "name": "QuickStop C-Store",       "state": "CA", "tier": "gold"   },
+    { "customer_id": "CUST-002", "name": "Sunrise Smoke Shop",      "state": "TX", "tier": "silver" },
+    { "customer_id": "CUST-003", "name": "Midwest Vape Hub",        "state": "IL", "tier": "gold"   },
+    { "customer_id": "CUST-004", "name": "SunCoast Retail Group",   "state": "FL", "tier": "bronze" },
+    { "customer_id": "CUST-005", "name": "Pacific Smoke & Vape",    "state": "CA", "tier": "silver" },
+    { "customer_id": "CUST-006", "name": "HighPlains Distributors", "state": "CO", "tier": "gold"   }
+  ],
+
+  "vendors": [
+    {
+      "vendor_id": "VEND-001",
+      "name": "SMAK'D Labs",
+      "category": "THC Edible",
+      "status": "approved",
+      "required_documents": ["lab_report", "coa", "business_license"]
+    },
+    {
+      "vendor_id": "VEND-002",
+      "name": "CloudBurst Industries",
+      "category": "Nicotine Vape",
+      "status": "approved",
+      "required_documents": ["business_license", "msds"]
+    },
+    {
+      "vendor_id": "VEND-003",
+      "name": "ZenDrop Wellness",
+      "category": "CBD",
+      "status": "approved",
+      "required_documents": ["lab_report", "coa", "business_license"]
+    },
+    {
+      "vendor_id": "VEND-004",
+      "name": "BlazeTech Beverages",
+      "category": "THC Beverage",
+      "status": "under_review",
+      "required_documents": ["lab_report", "coa", "business_license", "fda_registration"]
+    },
+    {
+      "vendor_id": "VEND-005",
+      "name": "NovaPuff Co",
+      "category": "Caffeine Vape",
+      "status": "approved",
+      "required_documents": ["business_license", "msds"]
+    }
+  ],
+
+  "kb_docs": [
+    {
+      "doc_id": "KB-001",
+      "title": "California THC Product Restrictions",
+      "visibility": "internal",
+      "text": "California (CA) prohibits the sale of Delta-9 THC edibles, THC beverages, and Delta-8 products through unlicensed B2B channels. Only state-licensed dispensaries may carry THC products. All CBD products require a valid COA and lab report. Violations may result in license revocation and fines up to $10,000 per incident."
+    },
+    {
+      "doc_id": "KB-002",
+      "title": "Vendor Onboarding Requirements",
+      "visibility": "internal",
+      "text": "All vendors must submit: (1) valid business license, (2) certificate of analysis (COA) for lab-tested products, (3) lab report for THC/CBD/Delta-8 categories, (4) MSDS for vape hardware products. Products in the THC Beverage category additionally require FDA registration. Missing net weight or volume fields will result in automatic REVIEW status pending correction."
+    },
+    {
+      "doc_id": "KB-003",
+      "title": "Age Restriction Policy",
+      "visibility": "portal_customer",
+      "text": "All nicotine, THC, Delta-8, and hemp flower products are restricted to buyers aged 21 and above. Retailers must implement age verification at point of sale. GW Products reserves the right to suspend accounts found selling age-restricted products to minors. PACT Act compliance is mandatory for all nicotine shipments."
+    },
+    {
+      "doc_id": "KB-004",
+      "title": "State-by-State Compliance Summary",
+      "visibility": "internal",
+      "text": "Idaho (ID): Bans all THC, Delta-8, CBD, and hemp products. Texas (TX): Bans Delta-9 THC edibles and beverages; allows hemp-derived CBD under 0.3% THC. California (CA): Bans Delta-9 THC and Delta-8 outside licensed dispensaries; allows CBD with valid COA. Florida (FL): Bans THC beverages; allows nicotine and CBD products. South Dakota (SD) and Nebraska (NE): Ban CBD products. Always verify current state law before fulfilling orders."
+    },
+    {
+      "doc_id": "KB-005",
+      "title": "Hot Picks Ranking Methodology",
+      "visibility": "internal",
+      "text": "Hot picks are ranked by popularity_score, a composite metric updated weekly based on units sold, reorder rate, and customer ratings. Products with a score above 80 are considered high-velocity items. Compliance filtering is always applied after ranking — blocked products are never surfaced to customers regardless of score."
+    },
+    {
+      "doc_id": "KB-006",
+      "title": "Lab Report and COA Policy",
+      "visibility": "portal_vendor",
+      "text": "Lab reports must be issued by an ISO/IEC 17025 accredited laboratory. Reports must be dated within 12 months of submission. The COA must include cannabinoid profile, heavy metals, pesticides, and residual solvents panels. Products submitted without a valid lab report will be placed in REVIEW status and cannot be listed until documentation is complete."
+    }
+  ]
+}

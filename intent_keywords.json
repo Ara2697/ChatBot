@@ -1,0 +1,23 @@
+{
+  "SALES_RECO": [
+    "hot pick", "recommend", "under $", "budget", "best seller",
+    "top product", "what should i sell", "popular", "give me products",
+    "what sells", "high margin"
+  ],
+  "COMPLIANCE_CHECK": [
+    "blocked", "available", "legal", "why", "can i sell",
+    "allowed in", "restricted", "not available", "banned", "permitted"
+  ],
+  "OPS_STOCK": [
+    "stock", "warehouse", "inventory", "how many", "how much stock",
+    "units left", "where is", "availability"
+  ],
+  "VENDOR_ONBOARDING": [
+    "upload", "missing", "lab report", "onboard", "vendor",
+    "net wt", "submit", "document", "register", "what do i fix"
+  ],
+  "GENERAL_KB": [
+    "policy", "rule", "how does", "what is", "explain",
+    "basket", "add", "age", "pact act", "compliance policy"
+  ]
+}
