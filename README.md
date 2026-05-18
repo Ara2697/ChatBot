@@ -1,4 +1,4 @@
-# GW Products USA — AI Chat Service
+# AI Chat Service
 
 ## How to Run
 
